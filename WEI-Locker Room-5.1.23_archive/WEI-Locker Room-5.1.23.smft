@@ -1,0 +1,18 @@
+<Device Model="CP3N">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="C2N-IO" DeviceId="A5"/>
+      <Device Model="C2N-IO" DeviceId="A6"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="Core3 UI XPanel" DeviceId="03" Name="TST-902 - XPanel 2.0 Simulator"/>
+      <Device Model="TSW-760" DeviceId="04"/>
+      <Device Model="DM-MD16x16" DeviceId="05"/>
+      <Device Model="CEN-GWEXER" DeviceId="0F">
+         <Network Type="RF">
+            <Device Model="TST-902" DeviceId="03" Name="TST-902 (EX)"/>
+         </Network>
+      </Device>
+      <Device Model="TSW-760" DeviceId="15"/>
+      <Device Model="TST-1080" DeviceId="1A"/>
+   </Network>
+</Device>
